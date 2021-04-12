@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #7e8b62;
+}
+.timer {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.field {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.value,
+.label {
+  margin-right: 25px;
+  font-size: 50px;
+  margin-top: 0;
+  color: #08380e;
+}
+
+.label {
+  font-size: 25px;
+}
